@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "web-recon",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --inspect",
+    "package": "electron-builder --dir",
+    "build": "electron-builder",
+    "clean": "rimraf dist node_modules"
+  },
+  "author": "Aaron",
+  "description": "Web Hackbar",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "semantic-ui-css": "^2.5.0"
+  },
+  "devDependencies": {
+    "electron": "^35.1.2",
+    "electron-builder": "^26.0.12",
+    "rimraf": "^5.0.1"
+  },
+  "build": {
+    "appId": "com.maxlab.maxrecon",
+    "productName": "Web Recon",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/*/{test,tests,__tests__,*.md,*.map,*.ts,*.tsx,LICENSE}",
+      "!{dist,build,.git,.github,.vscode}/**"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "assets/"
+    }
+  }
+}
