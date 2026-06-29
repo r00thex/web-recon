@@ -48,11 +48,7 @@ chmod +x Hackbar-WebView.AppImage
 ./Hackbar-WebView.AppImage
 ```
 ## **Browser Addon** 
-- **Git Repo** - [Download Here](https://github.com/mr-bipolar/hackbar)
 - **Firefox Store** - [ Download ](https://addons.mozilla.org/en-US/firefox/addon/maxs-hackbar/) 
-
-## **Screenshots**  
-![Hackbar WebView UI](screen2.png)  
 
 ## **Contributing**  
 Pull requests are welcome! If you'd like to contribute, fork the repo and create a PR.  
