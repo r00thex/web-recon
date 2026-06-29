@@ -1,4 +1,4 @@
-# **Web Recon - Hackbar WebView**
+# **tbdf Web Recon - Hackbar WebView**
 A lightweight **Hackbar-style** tool built with **Electron and WebView** for web security testing, request modification, and payload injection.  
 
 ## **Features**  
@@ -15,8 +15,8 @@ Inject **XSS, SQLi, and custom payloads**
 - **Git** (Optional for cloning)  
 
 ### **🔹 Clone & Setup**  
-```sh
-git clone 
+```
+git clone https://github.com/r00thex/web-recon.git
 cd hackbar-webview
 npm install
 ```
