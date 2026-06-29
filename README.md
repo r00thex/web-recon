@@ -1,4 +1,4 @@
-# **tbdf Web Recon - Hackbar WebView**
+# **TBDF Web Recon - Hackbar WebView**
 A lightweight **Hackbar-style** tool built with **Electron and WebView** for web security testing, request modification, and payload injection.  
 
 ## **Features**  
